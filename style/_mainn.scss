@@ -68,3 +68,30 @@
         display: none;
     }
 }
+
+.three{
+    height: 93%;
+    width: 100%;
+    @include flexcenter;
+    flex-wrap: wrap;
+    .foto{
+        width: 90%;
+        height: 40%;
+        margin: 1rem 0;
+        background-image: url('../img/miskas.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+    div{
+        width: 50%;
+        @include flexcenter;
+        flex-wrap: wrap;
+        align-content: center;
+        p{
+            width: 70%;
+            text-align: center;
+            font-size: 1.5rem;
+            padding-bottom: 0.4rem;
+        }
+    }
+}
